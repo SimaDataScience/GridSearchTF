@@ -10,8 +10,8 @@ MODEL_BUILDER = build_model # Function that accepts params and returns model.
 
 grid_search = GridSearchTF(
     model_builder=MODEL_BUILDER,
-    experiment_name='EXPERIMENT-NAME',
-    save_path='.../RESULTS-DIRECTORY'
+    experiment_name='EXPERIMENT-NAME', # Name for experiment.
+    save_path='.../RESULTS-DIRECTORY' # Parent directory for results folder.
 )
 
 grid_search.run_experiment(
