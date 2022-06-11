@@ -1,6 +1,6 @@
 # GridSearchTF
-Module to perform a small gridsearch for Tensorflow models.
-A model is trained with each parameter combination, then results and training curves are saved to desired directory.
+Module to perform a small gridsearch experiment for Tensorflow models.
+Trains a model with each parameter combination, then saves results and training curves to desired directory.
 
 ## Example Implementation
 ```
